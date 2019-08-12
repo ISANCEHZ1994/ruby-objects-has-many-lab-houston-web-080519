@@ -15,8 +15,8 @@ class Post
   end 
   
   def author
-   if  @author != nil 
-     return author
+     @author
+    
   end
   
 end 
