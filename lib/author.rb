@@ -18,5 +18,5 @@ class Author
 
   
 end 
-
+Tess = Author.new("Tess")
 Tess.add_post("Dog food")
