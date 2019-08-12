@@ -13,10 +13,10 @@ class Author
     post.author = self 
   end 
   
-  
+  def posts 
+    Post.all
+  end 
  
 
   
 end 
-Tess = Author.new("Tess")
-Tess.add_post("Dog food")
