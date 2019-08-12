@@ -22,7 +22,7 @@ class Artist
   end 
     
     def songs 
-      @songs
+     Songs.all
     end 
  
 end 
