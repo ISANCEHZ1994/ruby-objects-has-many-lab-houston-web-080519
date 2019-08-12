@@ -7,10 +7,7 @@ class Author
    
   end 
   
-  def author
-    @author 
-  end
-
+ 
 
   
 end 
