@@ -22,7 +22,7 @@ class Artist
   end 
     
     def songs 
-     Songs.all
+     Songs.all.select{|song| song.artist
     end 
  
 end 
