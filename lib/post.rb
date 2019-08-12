@@ -15,8 +15,8 @@ class Post
   end 
   
   def author
-     if @author == nil 
-      then  @author = author
+     if @author != nil 
+       then @author = author
     end
   end
   
